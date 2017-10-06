@@ -170,6 +170,7 @@
               <label class="labels">Grau de escolaridade</label> <br />
 
               <select class="campos" name="grau" required>
+                <option value="selecione">Selecione</option>
                 <option value="ensinoFund">Ensino Fundamental</option>
                 <optgroup label="Ensino Médio">
                   <option value="medioComp">Completo</option>
@@ -253,7 +254,61 @@
           </div>
 
 
-          <a class="btn btn-default btn-xl js-scroll-trigger" href="#dadosProfissionais">Próximo!</a>
+          <a class="btn btn-default btn-xl js-scroll-trigger" href="#dadosFamiliares">Próximo!</a>
+        </div>
+
+        <div id="dadosProfissionais">
+          <h2 class="section-heading text-black">Dados familiares</h2>
+
+          <div class="inputs">
+            <div class="campo">
+              <label class="labels">Nome da mãe</label> <br />
+              <input type="text" class="campos" name="mae" required /> <br />
+             <br />
+            </div>
+            <div class="campo">
+              <label class="labels">Nome do pai</label> <br />
+              <input type="text" class="campos" name="pai" required /> <br />
+            </div>
+            <div class="campo">
+              <label class="labels">Estado civil</label> <br />
+             <select class="campos" name="estadoCivil" required>
+                <option value="selecione">Selecione</option>
+                <option value="solteiro">Solteiro</option>
+                <option value="casado">Casado</option>
+                <option value="divorciado">Divorciado</option>
+                <option value="viuvo">Viúvo</option>
+             </select>
+             <br />
+            </div>
+            <div class="campo">
+              <label class="labels">Filhos</label> <br />
+              <select class="campos" name="filhos" required>
+                <option value="selecione">Selecione</option>
+                <option value="zero">0</option>
+                <option value="um">1</option>
+                <option value="dois">2</option>
+                <option value="tres">3</option>
+                <option value="mais">mais</option>
+             </select>
+             <br />
+            </div>
+            <div class="campo">
+              <label class="labels">Nome do Cônjuge</label> <br />
+              <input type="text" class="campos" name="nomeConjuge" /> <br />
+            </div>
+            <div class="campo">
+              <label class="labels">Residência</label> <br />
+             <select class="campos" name="residencia" required>
+                <option value="selecione">Selecione</option>
+                <option value="alugada">Alugada</option>
+                <option value="propria">Própria</option>
+             </select><br />
+            </div>
+          </div>
+
+
+          <a class="btn btn-default btn-xl js-scroll-trigger" href="#">Finalizar!</a>
         </div>
 
       </form>
