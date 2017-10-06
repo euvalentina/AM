@@ -1,3 +1,5 @@
+
+
 .campos{
 	border: none;
     border-bottom: 3px solid #3E3E3E;
@@ -50,6 +52,13 @@
 }
 
 #dadosEscola{
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #e3e3e3;
+	box-shadow: 2px 2px #000;
+}
+
+#dadosEmpresa{
 	margin-top: 20px;
 	padding: 10px;
 	background-color: #e3e3e3;
