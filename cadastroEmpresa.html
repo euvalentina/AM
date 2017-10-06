@@ -148,30 +148,43 @@
 
 
       
-      <div id="dadosProfissionais">
-        <h2 class="section-heading text-black">Dados familiares</h2>
+      <div id="dadosInteresse">
+        <h2 class="section-heading text-black">Área de interesse</h2>
 
         <div class="inputs">
           <div class="campo">
-            <label class="labels">Nome da mãe</label> <br />
-            <input type="text" class="campos" name="mae" required /> <br />
+            <label class="labels">Área de interesse</label> <br />
+            <input type="text" class="campos" name="areaInteresse" required /> <br />
             <br />
           </div>
           <div class="campo">
-            <label class="labels">Nome do Cônjuge</label> <br />
-            <input type="text" class="campos" name="nomeConjuge" /> <br />
+            <label class="labels">Áreas de interesse</label> <br />
+            <input type="checkbox" class="chack" name="area" value="backEnd">Back-end
+            <input type="checkbox" class="chack" name="area" value="frontEnd">Front-end
+            <input type="checkbox" class="chack" name="area" value="fullstack">Fullstack <br />
+            <input type="checkbox" class="chack" name="area" value="design">Design
+            <input type="checkbox" class="chack" name="area" value="marketing">Marketing
+            <input type="checkbox" class="chack" name="area" value="negocios">Negócios
+            <input type="checkbox" class="chack" name="area" value="outro">Outro
+            <br />
           </div>
           <div class="campo">
-            <label class="labels">Residência</label> <br />
-            <select class="campos" name="residencia" required>
+            <label class="labels">Outro</label> <br />
+            <input type="text" class="campos" name="outro" /> <br />
+            <br />
+          </div>
+          <div class="campo">
+            <label class="labels">Experiência</label> <br />
+            <select class="campos" name="experiencia" required>
               <option value="selecione">Selecione</option>
-              <option value="alugada">Alugada</option>
-              <option value="propria">Própria</option>
+              <option value="zeroAUm">0 a 1 ano</option>
+              <option value="doisATres">2 a 3 anos</option>
+              <option value="tresOuMais">3 ou mais</option>
             </select><br />
           </div>  
         </div>
 
-
+         <button class="btn btn-default btn-xl js-scroll-trigger" href="login.html">Finalizar!</button>
       </div>
 
     </form>
