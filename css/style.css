@@ -1,3 +1,30 @@
 .campos{
-	color: #b3b3b3;
+	border: none;
+    border-bottom: 2px solid #3E3E3E;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-family: tahoma;
+    font-size: 26px;
+}
+
+.labels{
+	font-size: 15px;
+    font-family: tahoma;
+    text-align: left;
+}
+
+.inputs{
+	padding: 20px;
+}
+
+.dadosPrincipais{
+	padding: 10px;
+	background-color: #D3D3D3;
+	box-shadow: 2px 2px #000;
+}
+
+#dadosPessoais{
+	margin-top: 20px;
+	border: 1px solid #3E3E3E;
 }
