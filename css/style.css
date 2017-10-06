@@ -3,9 +3,13 @@
     border-bottom: 2px solid #3E3E3E;
     border-radius: 5px;
     background-color: transparent;
-    color: white;
+    color: gray;
     font-family: tahoma;
     font-size: 26px;
+}
+
+.campo{
+	margin: 10px;
 }
 
 .labels{
@@ -18,13 +22,22 @@
 	padding: 20px;
 }
 
-.dadosPrincipais{
+#dadosPrincipais{
 	padding: 10px;
-	background-color: #D3D3D3;
+	background-color: #e3e3e3;
 	box-shadow: 2px 2px #000;
 }
 
 #dadosPessoais{
 	margin-top: 20px;
-	border: 1px solid #3E3E3E;
+	padding: 10px;
+	background-color: #e3e3e3;
+	box-shadow: 2px 2px #000;
+}
+
+#escolaridade{
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #e3e3e3;
+	box-shadow: 2px 2px #000;
 }
